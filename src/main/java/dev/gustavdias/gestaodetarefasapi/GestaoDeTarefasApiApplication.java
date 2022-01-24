@@ -11,9 +11,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 import javax.faces.webapp.FacesServlet;
+import java.time.LocalDateTime;
 
 @SpringBootApplication
-public class GestaoDeTarefasApiApplication extends ServeletBean {
+public class GestaoDeTarefasApiApplication{
 
 	public static void main(String[] args) {
 		SpringApplication.run(GestaoDeTarefasApiApplication.class, args);

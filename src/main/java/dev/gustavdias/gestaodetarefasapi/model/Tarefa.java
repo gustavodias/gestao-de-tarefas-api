@@ -7,6 +7,7 @@ import org.hibernate.Hibernate;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Date;
 import java.util.Objects;
 
 @Getter
@@ -17,6 +18,7 @@ import java.util.Objects;
 public class Tarefa implements Serializable {
 
     private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -34,21 +36,21 @@ public class Tarefa implements Serializable {
     private String prioridade;
 
     @Column
-    private String deadline;
+    private Date deadline;
 
     @Column
-    private String status;
+    private String situacao;
 
     public Tarefa() {
     }
 
-    public Tarefa(String titulo, String descricao, String responsavel, String prioridade, String deadline, String status) {
+    public Tarefa(String titulo, String descricao, String responsavel, String prioridade, Date deadline, String situacao) {
         this.titulo = titulo;
         this.descricao = descricao;
         this.responsavel = responsavel;
         this.prioridade = prioridade;
         this.deadline = deadline;
-        this.status = status;
+        this.situacao = situacao;
     }
 
     @Override
