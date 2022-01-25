@@ -12,7 +12,7 @@
 	<artifactId>gestao-de-tarefas-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>gestao-de-tarefas-api</name>
-	<description>Desafio ESIG Group.</description>
+	<description>Desafio do ESIG Group.</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
