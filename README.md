@@ -50,7 +50,7 @@ Através da rota: http://localhost:8080/swagger-ui.html#/
 
 ## 🐘 Configurando pgAdmin
 
-Rota de acesso: http://localhost:8000/\
+Rota de acesso: http://localhost:8000/ \
 É necessario a configuração do pgAdmin(docker) com o PostgresBD(docker);\
 Credenciais:\
 LOGIN: admin@postgres.com\
